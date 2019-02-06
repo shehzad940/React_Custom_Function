@@ -2,7 +2,7 @@
 Update parent component state with a single function
 No need to pass multiple callbacks
 
-class Parent extends React.Component {
+`class Parent extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -53,5 +53,5 @@ class Child extends React.Component {
     )
 
   }
-}
+}`
 
